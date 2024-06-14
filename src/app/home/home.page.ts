@@ -19,13 +19,13 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase, set, ref, update, remove, onValue, push, onChildAdded, onChildChanged, onChildRemoved } from 'firebase/database';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyALxmN1HbJuJpok77pIchzNL4q1MALNrWg",
-  authDomain: "mfcaicedo-afd34.firebaseapp.com",
-  projectId: "mfcaicedo-afd34",
-  storageBucket: "mfcaicedo-afd34.appspot.com",
-  messagingSenderId: "621929313026",
-  appId: "1:621929313026:web:f569d63a99c18799c7081b",
-  measurementId: "G-LS17PB5ZT8"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 const app = initializeApp(firebaseConfig);
